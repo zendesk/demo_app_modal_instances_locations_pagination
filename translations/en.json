@@ -1,0 +1,8 @@
+{
+  "app": {
+    "name": "Demo communicating between locations and pagination through API results",
+    "short_description": "Demo communicating between locations and pagination through API results.",
+    "long_description": "Shows sidebar apps with autoLoad:false sending info to top_bar location, sending data from modal to sidebar, and pagination through API results.",
+    "installation_instructions": "Click to install."
+  }
+}

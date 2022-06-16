@@ -1,0 +1,19 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/@zendeskgarden/css-buttons@7,npm/@zendeskgarden/css-utilities@4">
+  <script type="text/javascript" src="https://assets.zendesk.com/apps/sdk/2.0/zaf_sdk.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <h2 class="u-regular">Select tags to add to ticket</h2>
+  <hr/>
+  <div id="container">
+    <label><input id="tag1" class="c-chk__label" type="checkbox"/>Include tag1?</label><br/>
+    <label><input id="tag2" class="c-chk" type="checkbox"/>Include tag2?</label><br/>
+    <label><input id="tag3" class="c-chk" type="checkbox"/>Include tag3?</label><br/>
+    <button id="addTagsToTicketAndClose" class="u-fs-sm c-btn c-btn--small c-btn--pill c-btn--primary">Add Tags</button>
+    <button id="cancel" class="u-fs-sm c-btn c-btn--small c-btn--pill">Cancel</button>
+  </div>
+ </body>
+ </html>

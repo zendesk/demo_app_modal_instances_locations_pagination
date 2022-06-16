@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- Zendesk Garden CSS styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/combine/npm/@zendeskgarden/css-buttons@7,npm/@zendeskgarden/css-utilities@4"
+    />
+    <script
+    type="text/javascript"
+    src="https://assets.zendesk.com/apps/sdk/2.0/zaf_sdk.js"
+  ></script>
+  <script src="main.js"></script>
+ </head>
+  <body>
+      <div class="select-tags">
+    <h2 class="u-regular">Select Ticket Tags On Modal</h2>
+    <button
+      id="displayModal"
+      class="u-fs-sm c-btn c-btn--small c-btn--pill c-btn--primary"
+    >
+      Display Modal
+    </button>
+    <div id="modalData">
+        <!-- Container for the data that the nmodal sends to the ticket sidebar -->
+    </div>
+      </div>
+<div class="paging">
+<h2 class="u-regular">Example Pagination Results</h2>
+<p>Click to see results in the console</p>
+<button onClick="buttonPress()">Fetch</button>
+    </div>
+  </body>
+</html>
