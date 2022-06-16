@@ -9,7 +9,10 @@ This demo app shows:
 
 ## Getting started
 
-Follow these steps to get a local copy up and running.
+Follow these steps to get a local copy up and running.  Once the app is running:
+* The top bar popover will open to show info from the sidebar instance
+* In the ticket sidebar, click the Display Modal button select tags to add to the ticket
+* Click the fetch button and check the console to see the data returned from the paginated API requests
 
 ### Prerequisites
 
@@ -24,8 +27,13 @@ Follow these steps to get a local copy up and running.
     ``` bash
     git clone https://github.com/example.git
     ```
+2. Navigate to the app directory.
 
-2. Run the app.
+    ``` bash
+    cd demo_app_modal_instances_locations_pagination
+    ```
+
+3. Run the app.
 
     ``` bash
     zcli apps:server
@@ -39,7 +47,7 @@ Follow these steps to get a local copy up and running.
 
 - [Zendesk Apps Guide](https://developer.zendesk.com/documentation/apps/)
 - [Apps Support API documentation](https://developer.zendesk.com/api-reference/apps/apps-support-api/introduction/)
-- Inspiration from [Apps framework v2 Instances demo app](https://github.com/zendesk/demo_apps/tree/master/v2/support/instances_sample_app)
+
 
 <!-- Issue reporting with link to repo issues page -->
 
