@@ -25,7 +25,7 @@ Follow these steps to get a local copy up and running.  Once the app is running:
 1. Clone the repo
 
     ``` bash
-    git clone https://github.com/example.git
+    git clone https://github.com/zendesk/demo_app_modal_instances_locations_pagination.git
     ```
 2. Navigate to the app directory.
 
